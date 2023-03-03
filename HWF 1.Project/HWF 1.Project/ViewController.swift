@@ -43,8 +43,7 @@ class ViewController: UITableViewController{
     }
   
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        let  countOfPic = pictures.count
-        return countOfPic
+        pictures.count
         
     }
     

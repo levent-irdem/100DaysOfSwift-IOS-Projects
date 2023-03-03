@@ -30,9 +30,7 @@ class DetailViewController: UIViewController {
         if let imageToLoad = selectedImage{
             imageView.image = UIImage(named: imageToLoad)
         }
-        if let imageToLoad = selectedImage {
-                    imageView.image = UIImage(named: imageToLoad)
-                }
+        
 
     }
     
